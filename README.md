@@ -1,6 +1,6 @@
 **PWCLO-Net: Deep LiDAR Odometry in 3D Point Clouds Using Hierarchical Embedding Mask Optimization (CVPR 2021)**
 ==============================================================================================================================
-This is the official implementation of PWCLO-Net (CVPR2021), an end-to-end deep network for LiDAR odometry created by Guangming Wang, Xinrui Wu, Zhe Liu and Hesheng Wang.
+This is the official implementation of CVPR 2021 paper "PWCLO-Net: Deep LiDAR Odometry in 3D Point Clouds Using Hierarchical Embedding Mask Optimization" created by Guangming Wang, Xinrui Wu, Zhe Liu and Hesheng Wang.
 ![](doc/network.png)
 
 ## Citation
@@ -89,4 +89,4 @@ Train the network by running `sh command.sh` please reminder to specify the `mod
 We thank all the CVPR reviewers and the following open-source project for the help of the implementations:
 - [PointNet++](https://github.com/charlesq34/pointnet2) (Furthest Points Sampling and TF operators)
 - [KITTI_odometry_evaluation_tool](https://github.com/LeoQLi/KITTI_odometry_evaluation_tool) 
-
+- [HALFlowNet](https://github.com/IRMVLab/HALFlow) (Network design)
